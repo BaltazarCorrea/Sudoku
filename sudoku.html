@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku</title>
+    <link rel="stylesheet" href="sudoku.css"/>
+</head>
+<body>
+    <p class="texto">Esta es una paguina para la resolucion de sudokus, la misma se basa en precionar los botones
+        hasta que coincidan con los del sudoku que queremos resolver
+    </p>
+    <div class="Lineas">
+            <!--Primera linea-->
+            <button id="1" class="Boton1" onclick="cambiarValor1()" value="0">0</button>
+            <button id="2" class="Boton1" onclick="cambiarValor2()" value="0">0</button>
+            <button id="3" class="Boton1" onclick="cambiarValor3()" value="0">0</button>
+            <button id="4" class="Boton1" onclick="cambiarValor4()" value="0">0</button>
+            <button id="5" class="Boton1" onclick="cambiarValor5()" value="0">0</button>
+            <button id="6" class="Boton1" onclick="cambiarValor6()" value="0">0</button>
+            <button id="7" class="Boton1" onclick="cambiarValor7()" value="0">0</button>
+            <button id="8" class="Boton1" onclick="cambiarValor8()" value="0">0</button>
+            <button id="9" class="Boton1" onclick="cambiarValor9()" value="0">0</button>
+            <br>
+            <!--Segunda linea-->
+            <button id="10" class="Boton1" onclick="cambiarValor10()" value="0">0</button>
+            <button id="11" class="Boton1" onclick="cambiarValor11()" value="0">0</button>
+            <button id="12" class="Boton1" onclick="cambiarValor12()" value="0">0</button>
+            <button id="13" class="Boton1" onclick="cambiarValor13()" value="0">0</button>
+            <button id="14" class="Boton1" onclick="cambiarValor14()" value="0">0</button>
+            <button id="15" class="Boton1" onclick="cambiarValor15()" value="0">0</button>
+            <button id="16" class="Boton1" onclick="cambiarValor16()" value="0">0</button>
+            <button id="17" class="Boton1" onclick="cambiarValor17()" value="0">0</button>
+            <button id="18" class="Boton1" onclick="cambiarValor18()" value="0">0</button>
+            <br>
+            <!--Tercera linea-->
+            <button id="19" class="Boton1" onclick="cambiarValor19()" value="0">0</button>
+            <button id="20" class="Boton1" onclick="cambiarValor20()" value="0">0</button>
+            <button id="21" class="Boton1" onclick="cambiarValor21()" value="0">0</button>
+            <button id="22" class="Boton1" onclick="cambiarValor22()" value="0">0</button>
+            <button id="23" class="Boton1" onclick="cambiarValor23()" value="0">0</button>
+            <button id="24" class="Boton1" onclick="cambiarValor24()" value="0">0</button>
+            <button id="25" class="Boton1" onclick="cambiarValor25()" value="0">0</button>
+            <button id="26" class="Boton1" onclick="cambiarValor26()" value="0">0</button>
+            <button id="27" class="Boton1" onclick="cambiarValor27()" value="0">0</button>
+            <br>
+            <!--Cuarta linea-->
+            <button id="28" class="Boton1" onclick="cambiarValor28()" value="0">0</button>
+            <button id="29" class="Boton1" onclick="cambiarValor29()" value="0">0</button>
+            <button id="30" class="Boton1" onclick="cambiarValor30()" value="0">0</button>
+            <button id="31" class="Boton1" onclick="cambiarValor31()" value="0">0</button>
+            <button id="32" class="Boton1" onclick="cambiarValor32()" value="0">0</button>
+            <button id="33" class="Boton1" onclick="cambiarValor33()" value="0">0</button>
+            <button id="34" class="Boton1" onclick="cambiarValor34()" value="0">0</button>
+            <button id="35" class="Boton1" onclick="cambiarValor35()" value="0">0</button>
+            <button id="36" class="Boton1" onclick="cambiarValor36()" value="0">0</button>
+            <br>    
+            <!--Quinta linea-->
+            <button id="37" class="Boton1" onclick="cambiarValor37()" value="0">0</button>
+            <button id="38" class="Boton1" onclick="cambiarValor38()" value="0">0</button>
+            <button id="39" class="Boton1" onclick="cambiarValor39()" value="0">0</button>
+            <button id="40" class="Boton1" onclick="cambiarValor40()" value="0">0</button>
+            <button id="41" class="Boton1" onclick="cambiarValor41()" value="0">0</button>
+            <button id="42" class="Boton1" onclick="cambiarValor42()" value="0">0</button>
+            <button id="43" class="Boton1" onclick="cambiarValor43()" value="0">0</button>
+            <button id="44" class="Boton1" onclick="cambiarValor44()" value="0">0</button>
+            <button id="45" class="Boton1" onclick="cambiarValor45()" value="0">0</button>
+            <br>
+            <!--Sexta linea-->
+            <button id="46" class="Boton1" onclick="cambiarValor46()" value="0">0</button>
+            <button id="47" class="Boton1" onclick="cambiarValor47()" value="0">0</button>
+            <button id="48" class="Boton1" onclick="cambiarValor48()" value="0">0</button>
+            <button id="49" class="Boton1" onclick="cambiarValor49()" value="0">0</button>
+            <button id="50" class="Boton1" onclick="cambiarValor50()" value="0">0</button>
+            <button id="51" class="Boton1" onclick="cambiarValor51()" value="0">0</button>
+            <button id="52" class="Boton1" onclick="cambiarValor52()" value="0">0</button>
+            <button id="53" class="Boton1" onclick="cambiarValor53()" value="0">0</button>
+            <button id="54" class="Boton1" onclick="cambiarValor54()" value="0">0</button>
+            <br>
+            <!--Septima linea-->
+            <button id="55" class="Boton1" onclick="cambiarValor55()" value="0">0</button>
+            <button id="56" class="Boton1" onclick="cambiarValor56()" value="0">0</button>
+            <button id="57" class="Boton1" onclick="cambiarValor57()" value="0">0</button>
+            <button id="58" class="Boton1" onclick="cambiarValor58()" value="0">0</button>
+            <button id="59" class="Boton1" onclick="cambiarValor59()" value="0">0</button>
+            <button id="60" class="Boton1" onclick="cambiarValor60()" value="0">0</button>
+            <button id="61" class="Boton1" onclick="cambiarValor61()" value="0">0</button>
+            <button id="62" class="Boton1" onclick="cambiarValor62()" value="0">0</button>
+            <button id="63" class="Boton1" onclick="cambiarValor63()" value="0">0</button>
+            <br>
+            <!--Octaba linea-->
+            <button id="64" class="Boton1" onclick="cambiarValor64()" value="0">0</button>
+            <button id="65" class="Boton1" onclick="cambiarValor65()" value="0">0</button>
+            <button id="66" class="Boton1" onclick="cambiarValor66()" value="0">0</button>
+            <button id="67" class="Boton1" onclick="cambiarValor67()" value="0">0</button>
+            <button id="68" class="Boton1" onclick="cambiarValor68()" value="0">0</button>
+            <button id="69" class="Boton1" onclick="cambiarValor69()" value="0">0</button>
+            <button id="70" class="Boton1" onclick="cambiarValor70()" value="0">0</button>
+            <button id="71" class="Boton1" onclick="cambiarValor71()" value="0">0</button>
+            <button id="72" class="Boton1" onclick="cambiarValor72()" value="0">0</button>
+            <br>
+            <!--Novena linea-->
+            <button id="73" class="Boton1" onclick="cambiarValor73()" value="0">0</button>
+            <button id="74" class="Boton1" onclick="cambiarValor74()" value="0">0</button>
+            <button id="75" class="Boton1" onclick="cambiarValor75()" value="0">0</button>
+            <button id="76" class="Boton1" onclick="cambiarValor76()" value="0">0</button>
+            <button id="77" class="Boton1" onclick="cambiarValor77()" value="0">0</button>
+            <button id="78" class="Boton1" onclick="cambiarValor78()" value="0">0</button>
+            <button id="79" class="Boton1" onclick="cambiarValor79()" value="0">0</button>
+            <button id="80" class="Boton1" onclick="cambiarValor80()" value="0">0</button>
+            <button id="81" class="Boton1" onclick="cambiarValor81()" value="0">0</button>
+            <br>
+    </div>
+    <br>
+
+    <button onclick="comprobar()">Comprobar</button>
+    <script src="sudoku.js"></script>
+    <script src="comprobador.js"></script>
+</body>
+</html>
